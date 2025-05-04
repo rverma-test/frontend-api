@@ -97,7 +97,7 @@
       responseBox.innerHTML = '<div class="loading"><div class="loading-spinner"></div></div>';
 
       try {
-        const res = await fetch('http://localhost:4500/ask-ai', {
+        const res = await fetch('https://backend-api-45c1.onrender.com/ask-ai', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ 
